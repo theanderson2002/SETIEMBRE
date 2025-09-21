@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa;
+  font-family: sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+img {
+  transform: scale(1);
+  transform-origin: center;
+  cursor: pointer;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.hidden {
+  display: none;
+}
